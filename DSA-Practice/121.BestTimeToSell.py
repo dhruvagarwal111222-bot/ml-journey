@@ -1,5 +1,5 @@
 class Solution:
-    def maxProfit(self, prices: List[int]) -> int:
+    def maxProfit(self, prices: list[int]) -> int:
         # Start with a very high number so the first price becomes the new min
         min_price = float('inf') 
         max_profit = 0
