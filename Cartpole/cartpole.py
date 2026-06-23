@@ -86,7 +86,7 @@ best_avg = 0
 
 print("Double DQN training started...\n")
 
-for episode in range(1500):
+for episode in range(700):
     state, _ = env.reset()
     score = 0
 
